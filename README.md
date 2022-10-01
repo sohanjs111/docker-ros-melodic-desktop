@@ -49,31 +49,31 @@ https://hub.docker.com/r/tiryoh/ros-melodic-desktop/
 We want to installed ROS melodic on Windows. 
 1. For this we Build the image and run the container:
   ```
-  $ docker run -dt --name melodic -e USER=ubuntu -e USER_UID=1001 -e USER_GID=1001 tiryoh/ros-melodic-desktop
+  docker run -dt --name melodic -e USER=ubuntu -e USER_UID=1001 -e USER_GID=1001 tiryoh/ros-melodic-desktop
   ``` 
 
 2. Check if the container is running: 
   ```
-  $ docker ps
+  docker ps
   ``` 
 3. If the container is not running; start the container:
 If the container is running; skip this step
   ```
-  $ docker conatiner start melodic
+  docker conatiner start melodic
   ``` 
 4. Enter the container with bash:
   ```
-  $ docker exec -it melodic bash
+  docker exec -it melodic bash
   ``` 
 5. To exit the container after use
   ```
-  $ exit
+  exit
   ```
 6. To Stop the container after use
   ```
-  $ docker conatiner stop melodic
+  docker conatiner stop melodic
   ```  
-For the later use, you only need to run docker commands from 3 onwards.
+For the later use, you only need to run docker commands from Step 3 onwards.
 
 
 ## License
