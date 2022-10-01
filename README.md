@@ -49,7 +49,7 @@ https://hub.docker.com/r/tiryoh/ros-melodic-desktop/
 We want to installed ROS melodic on Windows. 
 1. For this we Build the image and run the container:
   ```
-  $ docker run -it --name melodic -e USER=ubuntu -e USER_UID=1001 -e USER_GID=1001 tiryoh/ros-melodic-desktop
+  $ docker run -dt --name melodic -e USER=ubuntu -e USER_UID=1001 -e USER_GID=1001 tiryoh/ros-melodic-desktop
   ``` 
 
 2. Check if the container is running: 
