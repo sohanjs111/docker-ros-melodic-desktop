@@ -59,7 +59,7 @@ We want to installed ROS melodic on Windows.
 3. If the container is not running; start the container:
 If the container is running; skip this step
   ```
-  docker conatiner start melodic
+  docker start melodic
   ``` 
 4. Enter the container with bash:
   ```
@@ -71,7 +71,7 @@ If the container is running; skip this step
   ```
 6. To Stop the container after use
   ```
-  docker conatiner stop melodic
+  docker stop melodic
   ```  
 For the later use, you only need to run docker commands from Step 3 onwards.
 
